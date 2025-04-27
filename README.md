@@ -1,4 +1,4 @@
-# FedProx for MNIST: A Federated Learning Implementation
+# FedProx for MNIST: A Federated Learning Implementation in PyTorch
 
 This project implements the **FedProx** algorithm for federated learning on the MNIST dataset, focusing on non-IID data scenarios.  
 This is a beginner-friendly project — it's also the **first full project I've written myself**, so I’ve included very detailed comments in the code.  
