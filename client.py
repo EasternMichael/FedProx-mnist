@@ -1,6 +1,6 @@
-import numpy as np  # 提供数组操作（如 np.random.permutation、np.vstack 等）
-import torch  # 提供 tensor 操作（如 torch.tensor）
-from torch.utils.data import DataLoader, TensorDataset  # 用于加载和封装数据集
+import numpy as np
+import torch
+from torch.utils.data import DataLoader, TensorDataset
 import data_prework
 import torch.nn as nn
 from torch.utils.data import DataLoader, TensorDataset
