@@ -1,4 +1,3 @@
-# reference page: https://blog.csdn.net/qq_36018871/article/details/121361027
 import argparse
 from os.path  import join
 import MnistDataloader as MD
@@ -33,7 +32,7 @@ parser.add_argument('-dataset',"--dataset",type=str,default="mnist",help="需要
 parser.add_argument('-vf', "--val_freq", type=int, default=5, help="model validation frequency(of communications)")
 parser.add_argument('-sf', '--save_freq', type=int, default=20, help='global model save frequency(of communication)')
 
-#n um_comm 表示通信次數，此處設置為1k
+#num_comm 表示通信次數，此處設置為1k
 parser.add_argument('-ncomm', '--num_comm', type=int, default=1000, help='number of communications')
 parser.add_argument('-sp', '--save_path', type=str, default='./checkpoints', help='the saving path of checkpoints')
 parser.add_argument('-iid', '--IID', type=int, default=0, help='the way to allocate data to clients')
