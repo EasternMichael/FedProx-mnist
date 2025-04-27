@@ -1,4 +1,4 @@
-import numpy as np # linear algebra
+import numpy as np
 import struct
 from array import array
 from os.path  import join
