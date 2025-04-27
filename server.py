@@ -1,6 +1,6 @@
-import numpy as np  # 提供数组操作（如 np.random.permutation、np.vstack 等）
+import numpy as np  # 提供數組操作（如 np.random.permutation、np.vstack 等）
 import torch  # 提供 tensor 操作（如 torch.tensor）
-from torch.utils.data import DataLoader, TensorDataset  # 用于加载和封装数据集
+from torch.utils.data import DataLoader, TensorDataset  # 用於加載和封装數據集
 import data_prework
 import client
 
@@ -19,7 +19,7 @@ class ClientGroup:
         self.save_freq = save_freq
         self.num_comm = num_comm
         self.save_path = save_path
-        self.is_iid = is_iid        # default: True
+        self.is_iid = is_iid   
         self.train_data = [[] for _ in range(self.num_of_clients)]
         self.train_label = [[] for _ in range(self.num_of_clients)]
         self.test_data = []
