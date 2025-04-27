@@ -1,14 +1,8 @@
-#
-# This is a sample Notebook to demonstrate how to read "MNIST Dataset"
-#
 import numpy as np # linear algebra
 import struct
 from array import array
 from os.path  import join
 
-#
-# MNIST Data Loader Class
-#
 class MnistDataloader(object):
     def __init__(self, training_images_filepath,training_labels_filepath,
                  test_images_filepath, test_labels_filepath):
