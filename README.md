@@ -45,28 +45,11 @@ FedProx/
 ├── README.md               # This file
 ```
 
-## Contributing
-
-We welcome contributions! To contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Make changes and commit (`git commit -m "Add your feature"`).
-4. Push to your branch (`git push origin feature/your-feature`).
-5. Open a pull request.
-
-## Issues
-
-If you encounter bugs or have questions:
-
-- Open an issue on GitHub: https://github.com/your-username/fedprox-mnist/issues.
-- Provide details like error messages, Python version, and steps to reproduce.
-
 ## Contact
 
 - Author: Zheng-Xin,Xi
 - Email: schumi7611@gmail.com
-- GitHub: your-username
+- GitHub: EasternMichael
 
 ## Acknowledgments
 
